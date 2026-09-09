@@ -1,0 +1,14 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+#Ignore virtual environment
+.venv/
+
+#Ignore temporary files from Phyton and OpenFOAM
+__pycache__/
+*.pyc
+*.log
+template_case/processor*
+template_case/postProcessing
+template_case/constant/polyMesh
+template_case/0/
+template_case/[1-9]*
